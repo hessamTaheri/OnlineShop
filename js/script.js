@@ -3,7 +3,7 @@ const newProductLoad = () => {
 		.then(res => res.json())
 		.then(json => {
 			let data = json
-			console.log(data)
+			// console.log(data)
 			let grid = document.querySelector(".grid")
 			let product = document.querySelector(".product")
 
@@ -387,8 +387,6 @@ const newProductLoad = () => {
 					}, 1000);
 				});
 			});
-
-
 
 		})
 	return
